@@ -63,11 +63,12 @@ nav.navbar{
     background-image: url('../img/black_linen.png');
 }
 .main-img2{
-    background-image: url('../img/restaurant-2.jpg');
+    background-image: url('../img/intro_3.png');
 }
 .main-img3{
-    background-image: url('../img/farm-2.jpg');
+    background-image: url('../img/FCREW_2.png');
 }
+
 
 .main_logo{
     max-height: 300px;
@@ -84,126 +85,59 @@ nav.navbar{
     border-color: transparent;
 }
 
-#our_story,#menu,#review,#contact{
-    min-height: 600px;
+.vcen{
+    height: 10rem;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-#our_story h1{
-font-family: 'Lobster', sans-serif;
-color: #f8512f;
-font-size: 6em;
-text-shadow: 1px 1px 5px #0a0a0a;
-}
-/* create class for raleway font */
-/* #our_story h3, 
-#our_story p,       
-#menu h3,
-#menu a{
-    font-family: 'Raleway', sans-serif;
-}*/
-
-#our_story p{
-    font-weight: 300;
+#fatgum{
+    background-color: #EDCE64;
 }
 
-.story_year{
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 200px;
-    font-weight: 700;
-    z-index: -1;
-    position: absolute;
-    color: rgba(149,147,147,0.2);
-}
-
-#review{
-    background-image: url(../img/food_review.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#review .center{
-    margin: 0 auto;
-    float: none;
-    background-color: rgba(20,20,20,.6);
-    padding: 10px;
-    margin-top: 145px;
-    border-radius: 5px;
-}
-
-#review h1{
+#fatgum h1{
     font-family: 'Lobster', cursive;
     font-size: 5em;
-    color: #f8512f;
+    color: #B7662E;
     text-shadow: 1px 1px 5px #0a0a0a ;
 }
-
-#review p{
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 2em;
-    text-shadow: 1px 1px 5px #0a0a0a;
-
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.anxiety img{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
-
-.center_center{
-    display: flex;
-    flex-flow: row;
-    align-content: center;
-    justify-content: center;
-}
-
-.margin{
-    margin-top: 210px;
-}
-
-#menu{
-    background-image: url('../img/black_linen.png');
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 40px;
-    padding-bottom: 70px;
-}
-
-#menu h1{
+#suneater{
+    background-color:#313158;
     color:#fff;
+}
+#suneater h1{
     font-family: 'Lobster', cursive;
-    font-size: 6em;
-    text-shadow: 1px 1px 5px #0a0a0a;
+    font-size: 5em;
+    color: #AB9E63;
+    text-shadow: 1px 1px 5px #0a0a0a ;
 }
-
-#menu h3{
-    text-align: center;
-    font-weight: 700;
-    font-size: 2rem;
+#red_riot{
+    background-color: #CB2C30;
+    color: #fff;
 }
-
-#menu a{
-    color: #f8512f;
-    font-weight: 700;
-    text-transform: uppercase;
+#red_riot h1{
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+    color: #282A2C;
+    text-shadow: 1px 1px 5px #0a0a0a ;
 }
-#menu p{
-    text-align: justify;
-    font-weight: 300;
-}
-.food{
-    background-color: #fff;
-}
-
-#menu .nav li a:hover{
-    background-color:rgba(255,255,255,0.1);
-    border-color: transparent;
-}
-
-#menu .nav-justified li a{
-    margin-bottom: -5px;
-}
-
-#menu .nav-tabs li a{
-    border: none;
-} 
-
 .contact_form{
     background-color:#ff6633;
     border: 1px solid;
@@ -218,12 +152,12 @@ text-shadow: 1px 1px 5px #0a0a0a;
     color:#ff0d06;
 }
 
-#contact{
+#weeb_info{
     background-color: #f8512f;
     color:#fff;
 }
 
-#contact h1{
+#weeb_info h1{
     font-weight: 700;
     font-size: 4rem;
 
@@ -234,7 +168,7 @@ text-shadow: 1px 1px 5px #0a0a0a;
     text-align: center;
 }
 
-#contact p{
+#weeb_info p{
     font-weight: 300;
     font-size: 1.5rem;
 }
